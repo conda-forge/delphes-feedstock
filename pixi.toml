@@ -23,30 +23,30 @@ description = "List contents of all packages found in rattler-build build direct
 [tasks.build]
 cmd = "rattler-build build --recipe recipe"
 description = "Build delphes-feedstock directly (without setup scripts), no particular variant specified"
-[tasks."build-linux_64_root_base6.34.10"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_root_base6.34.10.yaml"
-description = "Build delphes-feedstock with variant linux_64_root_base6.34.10 directly (without setup scripts)"
-[tasks."inspect-linux_64_root_base6.34.10"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_root_base6.34.10.yaml"
-description = "List contents of delphes-feedstock packages built for variant linux_64_root_base6.34.10"
-[tasks."build-linux_64_root_base6.36.04"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_root_base6.36.04.yaml"
-description = "Build delphes-feedstock with variant linux_64_root_base6.36.04 directly (without setup scripts)"
-[tasks."inspect-linux_64_root_base6.36.04"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_root_base6.36.04.yaml"
-description = "List contents of delphes-feedstock packages built for variant linux_64_root_base6.36.04"
-[tasks."build-osx_64_root_base6.34.10"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_root_base6.34.10.yaml"
-description = "Build delphes-feedstock with variant osx_64_root_base6.34.10 directly (without setup scripts)"
-[tasks."inspect-osx_64_root_base6.34.10"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_root_base6.34.10.yaml"
-description = "List contents of delphes-feedstock packages built for variant osx_64_root_base6.34.10"
-[tasks."build-osx_64_root_base6.36.04"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_root_base6.36.04.yaml"
-description = "Build delphes-feedstock with variant osx_64_root_base6.36.04 directly (without setup scripts)"
-[tasks."inspect-osx_64_root_base6.36.04"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_root_base6.36.04.yaml"
-description = "List contents of delphes-feedstock packages built for variant osx_64_root_base6.36.04"
+[tasks."build-linux_64_root_base6.36.8"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_root_base6.36.8.yaml"
+description = "Build delphes-feedstock with variant linux_64_root_base6.36.8 directly (without setup scripts)"
+[tasks."inspect-linux_64_root_base6.36.8"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_root_base6.36.8.yaml"
+description = "List contents of delphes-feedstock packages built for variant linux_64_root_base6.36.8"
+[tasks."build-linux_64_root_base6.38.0"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_root_base6.38.0.yaml"
+description = "Build delphes-feedstock with variant linux_64_root_base6.38.0 directly (without setup scripts)"
+[tasks."inspect-linux_64_root_base6.38.0"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_root_base6.38.0.yaml"
+description = "List contents of delphes-feedstock packages built for variant linux_64_root_base6.38.0"
+[tasks."build-osx_64_root_base6.36.8"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_root_base6.36.8.yaml"
+description = "Build delphes-feedstock with variant osx_64_root_base6.36.8 directly (without setup scripts)"
+[tasks."inspect-osx_64_root_base6.36.8"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_root_base6.36.8.yaml"
+description = "List contents of delphes-feedstock packages built for variant osx_64_root_base6.36.8"
+[tasks."build-osx_64_root_base6.38.0"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_root_base6.38.0.yaml"
+description = "Build delphes-feedstock with variant osx_64_root_base6.38.0 directly (without setup scripts)"
+[tasks."inspect-osx_64_root_base6.38.0"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_root_base6.38.0.yaml"
+description = "List contents of delphes-feedstock packages built for variant osx_64_root_base6.38.0"
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
