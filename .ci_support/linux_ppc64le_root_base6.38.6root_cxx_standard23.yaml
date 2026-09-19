@@ -9,17 +9,17 @@ channel_targets:
 cxx_compiler:
 - gxx
 cxx_compiler_version:
-- '14'
+- '15'
 docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma9
+- quay.io/condaforge/linux-anvil-x86_64:alma10
 pythia8:
 - '8.312'
 root_base:
-- 6.40.2
+- 6.38.6
 root_cxx_standard:
-- '20'
+- '23'
 target_platform:
-- linux-aarch64
+- linux-ppc64le
 zip_keys:
 - - root_base
   - root_cxx_standard
